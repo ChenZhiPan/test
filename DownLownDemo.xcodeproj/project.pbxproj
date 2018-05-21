@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5939EDF620A9860D00D41B11 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDEC20A9860D00D41B11 /* ioapi.c */; };
+		5939EDF720A9860D00D41B11 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDEE20A9860D00D41B11 /* mztools.c */; };
+		5939EDF820A9860D00D41B11 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDF020A9860D00D41B11 /* unzip.c */; };
+		5939EDF920A9860D00D41B11 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDF220A9860D00D41B11 /* zip.c */; };
+		5939EDFA20A9860D00D41B11 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDF520A9860D00D41B11 /* SSZipArchive.m */; };
+		5939EDFD20A9863B00D41B11 /* SSZipArchiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDFC20A9863B00D41B11 /* SSZipArchiveVC.m */; };
+		5939EE0020A986EF00D41B11 /* OutputStreamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5939EDFF20A986EF00D41B11 /* OutputStreamVC.m */; };
 		5945E16520A724F600E86C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5945E16420A724F600E86C9A /* AppDelegate.m */; };
 		5945E16820A724F600E86C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5945E16720A724F600E86C9A /* ViewController.m */; };
 		5945E16B20A724F600E86C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5945E16920A724F600E86C9A /* Main.storyboard */; };
@@ -15,6 +22,7 @@
 		5945E17320A7250A00E86C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5945E17220A7250A00E86C9A /* main.m */; };
 		5945E17D20A7250A00E86C9A /* DownLownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5945E17C20A7250A00E86C9A /* DownLownDemoTests.m */; };
 		5945E18820A7250A00E86C9A /* DownLownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5945E18720A7250A00E86C9A /* DownLownDemoUITests.m */; };
+		599DC5E220A74F1300E1EFF6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 599DC5E120A74F1300E1EFF6 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5939EDEB20A9860D00D41B11 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		5939EDEC20A9860D00D41B11 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		5939EDED20A9860D00D41B11 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		5939EDEE20A9860D00D41B11 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		5939EDEF20A9860D00D41B11 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		5939EDF020A9860D00D41B11 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		5939EDF120A9860D00D41B11 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		5939EDF220A9860D00D41B11 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		5939EDF320A9860D00D41B11 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		5939EDF420A9860D00D41B11 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		5939EDF520A9860D00D41B11 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		5939EDFB20A9863B00D41B11 /* SSZipArchiveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipArchiveVC.h; sourceTree = "<group>"; };
+		5939EDFC20A9863B00D41B11 /* SSZipArchiveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveVC.m; sourceTree = "<group>"; };
+		5939EDFE20A986EF00D41B11 /* OutputStreamVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputStreamVC.h; sourceTree = "<group>"; };
+		5939EDFF20A986EF00D41B11 /* OutputStreamVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputStreamVC.m; sourceTree = "<group>"; };
 		5945E16020A724F600E86C9A /* DownLownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5945E16320A724F600E86C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5945E16420A724F600E86C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,7 @@
 		5945E18320A7250A00E86C9A /* DownLownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5945E18720A7250A00E86C9A /* DownLownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLownDemoUITests.m; sourceTree = "<group>"; };
 		5945E18920A7250A00E86C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		599DC5E120A74F1300E1EFF6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599DC5E220A74F1300E1EFF6 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5939EDE920A9860D00D41B11 /* sszipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				5939EDEA20A9860D00D41B11 /* minizip */,
+				5939EDF420A9860D00D41B11 /* SSZipArchive.h */,
+				5939EDF520A9860D00D41B11 /* SSZipArchive.m */,
+			);
+			path = sszipArchive;
+			sourceTree = "<group>";
+		};
+		5939EDEA20A9860D00D41B11 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				5939EDEB20A9860D00D41B11 /* crypt.h */,
+				5939EDEC20A9860D00D41B11 /* ioapi.c */,
+				5939EDED20A9860D00D41B11 /* ioapi.h */,
+				5939EDEE20A9860D00D41B11 /* mztools.c */,
+				5939EDEF20A9860D00D41B11 /* mztools.h */,
+				5939EDF020A9860D00D41B11 /* unzip.c */,
+				5939EDF120A9860D00D41B11 /* unzip.h */,
+				5939EDF220A9860D00D41B11 /* zip.c */,
+				5939EDF320A9860D00D41B11 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		5945E15720A724F600E86C9A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +136,7 @@
 				5945E17B20A7250A00E86C9A /* DownLownDemoTests */,
 				5945E18620A7250A00E86C9A /* DownLownDemoUITests */,
 				5945E16120A724F600E86C9A /* Products */,
+				599DC5E020A74F1300E1EFF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +153,15 @@
 		5945E16220A724F600E86C9A /* DownLownDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5939EDE920A9860D00D41B11 /* sszipArchive */,
 				5945E16320A724F600E86C9A /* AppDelegate.h */,
 				5945E16420A724F600E86C9A /* AppDelegate.m */,
 				5945E16620A724F600E86C9A /* ViewController.h */,
 				5945E16720A724F600E86C9A /* ViewController.m */,
+				5939EDFE20A986EF00D41B11 /* OutputStreamVC.h */,
+				5939EDFF20A986EF00D41B11 /* OutputStreamVC.m */,
+				5939EDFB20A9863B00D41B11 /* SSZipArchiveVC.h */,
+				5939EDFC20A9863B00D41B11 /* SSZipArchiveVC.m */,
 				5945E16920A724F600E86C9A /* Main.storyboard */,
 				5945E16C20A7250A00E86C9A /* Assets.xcassets */,
 				5945E16E20A7250A00E86C9A /* LaunchScreen.storyboard */,
@@ -130,6 +187,14 @@
 				5945E18920A7250A00E86C9A /* Info.plist */,
 			);
 			path = DownLownDemoUITests;
+			sourceTree = "<group>";
+		};
+		599DC5E020A74F1300E1EFF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599DC5E120A74F1300E1EFF6 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5939EDF820A9860D00D41B11 /* unzip.c in Sources */,
+				5939EE0020A986EF00D41B11 /* OutputStreamVC.m in Sources */,
 				5945E16820A724F600E86C9A /* ViewController.m in Sources */,
+				5939EDFD20A9863B00D41B11 /* SSZipArchiveVC.m in Sources */,
 				5945E17320A7250A00E86C9A /* main.m in Sources */,
+				5939EDF620A9860D00D41B11 /* ioapi.c in Sources */,
+				5939EDFA20A9860D00D41B11 /* SSZipArchive.m in Sources */,
+				5939EDF920A9860D00D41B11 /* zip.c in Sources */,
 				5945E16520A724F600E86C9A /* AppDelegate.m in Sources */,
+				5939EDF720A9860D00D41B11 /* mztools.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DownLownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DownLownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
