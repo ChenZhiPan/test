@@ -4,7 +4,6 @@
 //
 //  Created by ZhiPan Chen on 2018/5/14.
 //  Copyright © 2018年 ZhiPan Chen. All rights reserved.
-//
 
 //较大文件下载  outputStream
 
@@ -30,7 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     _progressView = [[UIProgressView alloc]initWithFrame:CGRectMake(50, 100, 200, 30)];
     [self.view addSubview:_progressView];
@@ -46,6 +44,7 @@
     btn.layer.masksToBounds = YES;
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
 }
 
 #pragma mark - <NSURLConnectionDataDelegat>
